@@ -124,7 +124,7 @@ services:
       - id=0
       - api_url=http://serviceapi:8081
       - rabbit_host=amqp://rabbit
-  $Teclacrawler:
+  Teclacrawler:
     depends_on: 
       serviceapi: 
         condition: service_healthy 

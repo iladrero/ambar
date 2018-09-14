@@ -76,7 +76,7 @@ services:
       - redisHost=redis
       - redisPort=6379
       - rabbitHost=amqp://rabbit
-      - langAnalyzer=ambar_spa   
+      - langAnalyzer=ambar_en   
   webapi:
     depends_on:
       serviceapi:
@@ -136,7 +136,7 @@ services:
       - "8082"
     environment:      
       - name=Teclacrawler
-      - ignoreFolders=**/ForSharing/**
+      - ignoreFolders=
       - ignoreExtensions=.{exe,dll,rar}
       - ignoreFileNames=*backup*
       - maxFileSize=300mb

@@ -136,7 +136,6 @@ services:
       - "8082"
     environment:      
       - name=Teclacrawler
-      - ignoreFolders=
       - ignoreExtensions=.{exe,dll,rar}
       - ignoreFileNames=*backup*
       - maxFileSize=300mb

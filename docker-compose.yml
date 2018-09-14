@@ -76,7 +76,7 @@ services:
       - redisHost=redis
       - redisPort=6379
       - rabbitHost=amqp://rabbit
-      - langAnalyzer=ambar_en   
+      - langAnalyzer=ambar_spa   
   webapi:
     depends_on:
       serviceapi:
